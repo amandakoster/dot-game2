@@ -1,0 +1,63 @@
+//
+//
+// <div className="button-1">1</div>
+//
+// </div>
+
+// .container {
+//   width: 100%;
+// }
+
+button {
+display: block;
+text-decoration: none;
+height: 100px;
+width: 100px;
+border-radius: 50%;
+border: 1px solid red;
+}
+
+// .button {
+//   display: inline-block;
+//   padding: 100px;
+//   color: white;
+//   position: relative;
+//   margin: 20px;
+//   border-radius: 50%;
+// }
+
+// .button-1 {
+//   animation: move-in-steps 10s  infinite;
+// }
+
+body {
+  width: 90%;
+}
+
+// @keyframes move-in-steps {
+//   0% {
+//     left: 0;
+//     background: cyan;
+//   }
+//   100% {
+//     left: 100%;
+//     background: purple;
+//   }
+// }
+
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: myfirst 5s infinite;
+    float: left;
+}
+
+
+// @keyframes myfirst {
+//
+//     10%  {background: yellow;  top: 0px;}
+//     90%  {background: blue; top: 400px;}
+//
+// }
